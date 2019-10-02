@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import TestPodImroveiosteam123
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+//        let customView = SuperMegaColoredView
+        let view = SuperMegaColoredView(frame: self.view.bounds)
+        self.view.addSubview(view)
     }
 
     override func didReceiveMemoryWarning() {
